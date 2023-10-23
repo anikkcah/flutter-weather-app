@@ -1,0 +1,10 @@
+^D:\DEV\WEATHER-APP-FLUTTER\BUILD\WINDOWS\CMAKEFILES\8602413518980878CC07B3B25A5FA73B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/dev/weather-app-flutter/windows -BD:/dev/weather-app-flutter/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/dev/weather-app-flutter/build/windows/weather_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

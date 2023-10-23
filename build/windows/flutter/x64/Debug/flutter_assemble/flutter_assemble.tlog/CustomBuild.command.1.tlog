@@ -1,0 +1,28 @@
+^D:\DEV\WEATHER-APP-FLUTTER\BUILD\WINDOWS\CMAKEFILES\3FD5092E2347FA2098655F26E0902EE1\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=D:\dev\weather-app-flutter FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=D:\dev\weather-app-flutter\windows\flutter\ephemeral PROJECT_DIR=D:\dev\weather-app-flutter FLUTTER_TARGET=D:\dev\weather-app-flutter\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC83NjdkOGM3NWU4OTgwOTFiOTI1NTE5ODAzODMwZmMyNzIxNjU4ZDA3Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\dev\weather-app-flutter\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WEATHER-APP-FLUTTER\BUILD\WINDOWS\CMAKEFILES\B0D9FFE50F61C36E8C07B9CB0F23782D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DEV\WEATHER-APP-FLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/dev/weather-app-flutter/windows -BD:/dev/weather-app-flutter/build/windows --check-stamp-file D:/dev/weather-app-flutter/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
